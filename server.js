@@ -8,7 +8,6 @@ const blogRoutes = require(path.join(__dirname, "./app/routes/blogs.routes"));
 const userRoutes = require(path.join(__dirname, "./app/routes/user.routes"));
 
 const cors = require("cors");
-
 require("dotenv").config();
 
 const app = express();
